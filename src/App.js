@@ -5,6 +5,7 @@ function App() {
     const [loading, setLoading] = useState(true);
     const [selectCoin, setSelectCoin] = useState(0); // 선택한 코인의 가격
     const [money, setMoney] = useState(1); // 내 돈 총 20달러
+    const [value, setValue] = useState(0);
 
     const onChangeCoin = (event) => {setSelectCoin(event.target.value)}
     const onChangeMoney = (event) => {setMoney(event.target.value)}
